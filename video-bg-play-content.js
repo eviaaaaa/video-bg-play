@@ -4,7 +4,7 @@ const IS_YOUTUBE = window.location.hostname.search(/(?:^|.+\.)youtube\.com/) > -
                    window.location.hostname.search(/(?:^|.+\.)youtube-nocookie\.com/) > -1;
 const IS_MOBILE_YOUTUBE = window.location.hostname == 'm.youtube.com';
 const IS_DESKTOP_YOUTUBE = IS_YOUTUBE && !IS_MOBILE_YOUTUBE;
-const IS_VIMEO = window.location.hostname.search(/(?:^|.+\.)vimeo\.com/) > -1;
+const IS_VIMEO = window.location.hostname.search(/(?:^|.+\.)thisav\.com/) > -1;
 
 const IS_ANDROID = window.navigator.userAgent.indexOf('Android') > -1;
 
